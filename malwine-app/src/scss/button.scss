@@ -1,0 +1,97 @@
+.button {
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white; // Add white border
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; // Add transition for smooth effect
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.divider {
+  margin: 0 10px;
+  color: gray;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  .divider {
+    margin: 0 10px;
+    color: #333;
+    font-size: 1.5rem;
+  }
+
+  .button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease; // Add border color transition
+    background-color: #30204d;
+    color: white;
+    // border: 10px solid white; // Add white border
+
+    &:hover {
+      background-color: rgb(99, 39, 94);
+      border-color: rgb(99, 39, 94); // Optional: change border color on hover for better effect
+    }
+  }
+}
+
+.button--like {
+  background-color: #30204d; // Основной фиолетовый цвет
+  color: white; // Цвет текста
+  padding: 15px 15px; // Отступы внутри кнопки
+  border: none; // Убираем обводку
+  border-radius: 10px; // Скругление углов кнопки
+  cursor: pointer; // Указатель на кнопку
+  font-size: 1.2em; // Размер шрифта
+  transition: background-color 0.3s ease; // Плавный переход для фона
+margin: 20px;
+  &:hover {
+    background-color: #412772; // Цвет кнопки при наведении
+  }
+
+  &:active {
+    background-color: #25183d; // Цвет кнопки при нажатии
+  }
+
+  &:focus {
+    outline: none; // Убираем стандартный фокус
+  }
+}
+
+.button--unlike {
+  background-color: #4d2024; // Основной фиолетовый цвет
+  color: white; // Цвет текста
+  padding: 15px 15px; // Отступы внутри кнопки
+  border: none; // Убираем обводку
+  border-radius: 10px; // Скругление углов кнопки
+  cursor: pointer; // Указатель на кнопку
+  font-size: 1.2em; // Размер шрифта
+  transition: background-color 0.3s ease; // Плавный переход для фона
+margin: 20px;
+  &:hover {
+    background-color: #722727; // Цвет кнопки при наведении
+  }
+
+  &:active {
+    background-color: #3d1818; // Цвет кнопки при нажатии
+  }
+
+  &:focus {
+    outline: none; // Убираем стандартный фокус
+  }
+}
+
+

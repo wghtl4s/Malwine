@@ -1,0 +1,118 @@
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  height: auto;
+}
+
+.register-form-container h2 {
+  font-size: 2.2em;
+  color: #30204d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.register-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-form label {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #413942;
+  margin-bottom: 5px;
+}
+
+.register-form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.register-form input, 
+.register-form textarea, 
+.register-form input[type="file"] {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%; 
+  transition: border-color 0.3s ease;
+}
+
+.register-form input:focus,
+.register-form textarea:focus,
+.register-form input[type="file"]:focus {
+  border-color: rgb(99, 39, 94);
+  outline: none;
+}
+
+.register-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+.custom-file-upload .custom-upload-button {
+  background-color: #30204d; 
+  color: #ffffff !important; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  border: none;
+}
+
+.custom-file-upload .custom-upload-button:hover {
+  background-color: rgb(99, 39, 94); 
+  transform: scale(1.05);
+}
+
+
+
+.file-name {
+  font-size: 1rem;
+  color: white;
+  font-style: italic;
+}
+
+.register-form button {
+  background-color: #30204d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%; /* Ширина кнопки така ж, як і ширина полів */
+  transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.register-form button:hover {
+  background-color: rgb(99, 39, 94);
+  transform: scale(1.05);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  text-align: center;
+}

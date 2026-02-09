@@ -1,0 +1,83 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 20px auto;
+  height: 450px;
+}
+
+.login-form-container h2 {
+  font-size: 2.5em;
+  color: #30204d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form label {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #413942;
+}
+
+.login-form input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: rgb(99, 39, 94);
+  outline: none;
+}
+
+.login-form button {
+  background-color: #30204d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.login-form button:hover {
+  background-color: rgb(99, 39, 94);
+  transform: scale(1.05);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login-form-container .back-to-home {
+  margin-top: 15px;
+  color: #413942;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.login-form-container .back-to-home:hover {
+  color: rgb(99, 39, 94);
+}

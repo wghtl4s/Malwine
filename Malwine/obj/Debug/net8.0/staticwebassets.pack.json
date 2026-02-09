@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Malwine\\Malwine\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Malwine.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Malwine.props",
+      "PackagePath": "build\\Malwine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Malwine.props",
+      "PackagePath": "buildMultiTargeting\\Malwine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Malwine.props",
+      "PackagePath": "buildTransitive\\Malwine.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

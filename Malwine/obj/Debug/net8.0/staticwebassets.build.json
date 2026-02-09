@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "HpuIZp5RjT2KNUTZ0Os7gnFJaGjoPlajryX4uZtJVtM=",
+  "Source": "Malwine",
+  "BasePath": "_content/Malwine",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Malwine\\wwwroot",
+      "Source": "Malwine",
+      "ContentRoot": "C:\\Malwine\\Malwine\\Malwine\\wwwroot\\",
+      "BasePath": "_content/Malwine",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

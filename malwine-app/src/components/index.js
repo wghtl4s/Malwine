@@ -1,0 +1,11 @@
+export { default as Button } from './Button';
+export { default as Categories } from './Categories';
+export { default as Header } from './Header';
+export { default as MovieList } from './MovieList';
+export { default as LoginForm } from './LoginForm';
+export { default as RegisterForm } from './RegisterForm';
+export { default as SortMovies } from './SortMovies';
+export { default as UserProfile } from './UserProfile';
+export { default as Recommendations } from './Recommendations';
+export { default as MovieDetails } from './MovieDetails';
+export { default as UserComments } from './UserComments';
