@@ -45,8 +45,9 @@ public class MoviesController(
     [Range(1, 50)] int limit
   )
   {
-    var movies = _movies.Skip(offset)
-                        .Take(limit);
+    var movies = await _movies.Skip(offset)
+                             .Take(limit)
+                             .ToListAsync();
 
     var moviesDtos = movies.Select(_dtoFactory.CreateMovie);
 

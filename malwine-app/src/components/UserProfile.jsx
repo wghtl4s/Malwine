@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import '../scss/userprofile.scss';
 import UserComments from './UserComments';
 
+// адреса сервера в константу
+const API_BASE_URL = 'http://localhost:5162/api/users';
+
 const UserProfile = () => {
   const [user, setUser] = useState(null);
   const [error, setError] = useState('');
@@ -16,7 +19,7 @@ const UserProfile = () => {
 
       try {
         const response = await fetch(
-          `http://localhost:5162/api/users/get?userName=${currentUserName}`,
+          `${API_BASE_URL}/get?userName=${currentUserName}`, // Використовуємо константу для URL
           {
             method: 'GET',
             credentials: 'include',
@@ -73,11 +76,10 @@ const UserProfile = () => {
             ))}
           </ul>
         </div>
-        
       ) : (
         <p>Немає вподобайок</p>
       )}
-     <UserComments userName={currentUserName}/>
+      <UserComments userName={currentUserName}/>
     </div>
   );
 };

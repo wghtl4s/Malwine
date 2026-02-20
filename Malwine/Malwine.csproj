@@ -3,8 +3,6 @@
 <PropertyGroup>
   <TargetFramework>net8.0</TargetFramework>
   <Nullable>enable</Nullable>
-
-  <NoWarn>CS1998</NoWarn> <!-- This async method lacks 'await' operators and will run synchronously. -->
 </PropertyGroup>
 
 <ItemGroup>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Malwine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb119a42a85769dc78ab5eb42acfff2363cf5cfd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ec287b5c866e19c117109864260011460b68ba7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Malwine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Malwine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
