@@ -39,7 +39,7 @@ const MovieDetails = () => {
   }
 
   if (!movie) {
-    return <div>Загрузка данных о фильме...</div>;
+    return <div>Завантаження...</div>;
   }
 
   return (

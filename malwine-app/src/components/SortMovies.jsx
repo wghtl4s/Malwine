@@ -2,7 +2,7 @@ import React from 'react';
 
 function SortMovies({ items }) {
   const [visiblePopup, setVisiblePopup] = React.useState(false);
-  const [activeItem, setActiveItem] = React.useState(0); // Используйте состояние для активного элемента
+  const [activeItem, setActiveItem] = React.useState(0); 
   const sortRef = React.useRef();
 
   const activeLabel = items[activeItem];
@@ -21,7 +21,6 @@ function SortMovies({ items }) {
   React.useEffect(() => {
     document.body.addEventListener('click', handleOutSideClick);
 
-    // Убираем обработчик события при размонтировании компонента
     return () => {
       document.body.removeEventListener('click', handleOutSideClick);
     };
@@ -29,7 +28,7 @@ function SortMovies({ items }) {
 
   const onSelectItem = (index) => {
     setActiveItem(index);
-    setVisiblePopup(false); // Закрываем попап после выбора элемента
+    setVisiblePopup(false); 
   };
 
   return (
@@ -56,7 +55,7 @@ function SortMovies({ items }) {
               items.map((name, index) => (
                 <li
                   className={activeItem === index ? 'active' : ''}
-                  onClick={() => onSelectItem(index)} // вызываем функцию для обработки выбора
+                  onClick={() => onSelectItem(index)} 
                   key={`${name}_${index}`}>
                   {name}
                 </li>

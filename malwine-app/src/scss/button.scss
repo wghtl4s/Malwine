@@ -49,48 +49,48 @@
 }
 
 .button--like {
-  background-color: #30204d; // Основной фиолетовый цвет
-  color: white; // Цвет текста
-  padding: 15px 15px; // Отступы внутри кнопки
-  border: none; // Убираем обводку
-  border-radius: 10px; // Скругление углов кнопки
-  cursor: pointer; // Указатель на кнопку
-  font-size: 1.2em; // Размер шрифта
-  transition: background-color 0.3s ease; // Плавный переход для фона
+  background-color: #30204d; 
+  color: white; 
+  padding: 15px 15px; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  font-size: 1.2em;
+  transition: background-color 0.3s ease; 
 margin: 20px;
   &:hover {
-    background-color: #412772; // Цвет кнопки при наведении
+    background-color: #412772; 
   }
 
   &:active {
-    background-color: #25183d; // Цвет кнопки при нажатии
+    background-color: #25183d; 
   }
 
   &:focus {
-    outline: none; // Убираем стандартный фокус
+    outline: none; 
   }
 }
 
 .button--unlike {
-  background-color: #4d2024; // Основной фиолетовый цвет
-  color: white; // Цвет текста
-  padding: 15px 15px; // Отступы внутри кнопки
-  border: none; // Убираем обводку
-  border-radius: 10px; // Скругление углов кнопки
-  cursor: pointer; // Указатель на кнопку
-  font-size: 1.2em; // Размер шрифта
-  transition: background-color 0.3s ease; // Плавный переход для фона
+  background-color: #4d2024; 
+  color: white; 
+  padding: 15px 15px; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  font-size: 1.2em; 
+  transition: background-color 0.3s ease; 
 margin: 20px;
   &:hover {
-    background-color: #722727; // Цвет кнопки при наведении
+    background-color: #722727; 
   }
 
   &:active {
-    background-color: #3d1818; // Цвет кнопки при нажатии
+    background-color: #3d1818; 
   }
 
   &:focus {
-    outline: none; // Убираем стандартный фокус
+    outline: none; 
   }
 }
 

@@ -35,10 +35,10 @@ const Comments = ({ movieId }) => {
   const handleCommentSubmit = async (e) => {
     e.preventDefault();
 
-    const userId = localStorage.getItem('userId'); // Получаем userId из localStorage
+    const userId = localStorage.getItem('userId'); 
     const formData = new FormData();
     formData.append('movieId', movieId);
-    formData.append('userId', userId); // Добавляем userId в formData
+    formData.append('userId', userId); 
     formData.append('text', newComment);
 
     try {

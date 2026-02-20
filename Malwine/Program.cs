@@ -36,7 +36,7 @@ services.AddIdentity<User, IdentityRole>()
 services.AddCors(options =>
 {
   options.AddPolicy("AllowAllOrigin",
-      builder => builder.WithOrigins("http://localhost:3000") // Замените на ваш фронтенд адрес
+      builder => builder.WithOrigins("http://localhost:3000")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials());

@@ -15,7 +15,7 @@ const UserComments = ({ userName }) => {
         );
         setComments(response.data);
       } catch (err) {
-        setError('Не удалось загрузить комментарии.');
+        setError('Не вдалося завантажити коментарі.');
       } finally {
         setLoading(false);
       }

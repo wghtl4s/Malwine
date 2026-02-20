@@ -28,11 +28,11 @@ const RegisterForm = () => {
       });
 
       if (response.data.success) {
-        setSuccess('Регистрация прошла успешно! Вы можете войти в систему.');
+        setSuccess('Реєстрація пройшла успішно! Ви можете увійти в систему.');
         setError('');
       }
     } catch (err) {
-      setError(err.response.data.message || 'Ошибка при регистрации. Попробуйте еще раз.');
+      setError(err.response.data.message || 'помилка при реєстрації.');
       setSuccess('');
     }
   };
